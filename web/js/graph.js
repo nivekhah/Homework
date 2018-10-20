@@ -3,11 +3,11 @@ var NFA;
 var TITLE;
 var NODE;
 var END;
-var CANJUDGE=false;
-var JUDGEBUTTON=true;
-var STRINDEX=0;
-var status=-1;
-var INTERVAL=null;
+var CANJUDGE=false; //false
+var JUDGEBUTTON=true;  //true
+var STRINDEX=0;  //0
+var status=-1;  //-1
+var INTERVAL=null; //null
 var JUDGESENTENCE;
 //生成图像的操作：
 function getNFA()
@@ -49,12 +49,13 @@ function getNFA()
     NFAsvgGroup.attr("transform", "translate(" + xCenterOffsetNFA + ", 20)");
     NFAsvg.attr("height", NFAG.graph().height + 40);
 }
-function getDFA() {
+function getDFA(ok) {
     var DFAG = new dagreD3.graphlib.Graph()
         .setGraph({})
         .setDefaultEdgeLabel(function() { return {}; });
+    console.log(status);
     for(var i=0;i<DFA.length;i++) {
-        if (i == status)
+        if (i == status&&ok)
             DFAG.setNode(DFA[i][0][0], {label: String(DFA[i][0][0]), class: "type-active"})
         else {
             if (END[i])
@@ -208,14 +209,15 @@ function Ajax()
         $.post("Machine", {'string': string}, function (data, status) {
             $("#svg1").empty();
             $("#svg2").empty();
+            $("#set").empty();
+            status=-1;
             nfa=data[1];
             dfa=data[0];
             TITLE=data[2];
             TITLE.push("#");
-            status=-1;
             getStandard(nfa,dfa);
             getNFA();
-            getDFA();
+            getDFA(false);
             CANJUDGE=true;
             JUDGEBUTTON=true;
         }, "json");
@@ -256,30 +258,9 @@ function setSet(string) {
             STRINDEX++;
         }
     }
-    getDFA();
+    getDFA(true);
 }
-function changeDFA() {
-    $("#svg2").empty();
-    getDFA();
-    var index=TITLE.indexOf(JUDGESENTENCE[STRINDEX]);
-    //当前字符在输入集合中找不到
-    if(index==-1) {
-        alert("fail! ");
-        window.clearInterval(INTERVAL);
-    }
-    else
-    {
-        if(DFA[status][index].length==0)
-        {
-            alert("fail !");
-            window.clearInterval(INTERVAL);
-        }
-        else
-        {
-            status=DFA[status][index][0];
-        }
-    }
-}
+
 function judge() {
     JUDGESENTENCE = $("#target").val();
     if (CANJUDGE && JUDGEBUTTON) {

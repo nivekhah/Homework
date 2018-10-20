@@ -544,17 +544,17 @@ public class RE {
             }
             used=false;
         }
-        col=Head.indexOf("ε".toString());
-        par=Form[row][col];
-        it =par.iterator();
-        while (it.hasNext())
-        {
-            Integer newnum=Integer.parseInt(it.next().toString());
-            if(!visit[row][newnum])
-            {
-                visit[row][newnum]=true;
-                temp.add(newnum);
-                Closure(newnum,tranval,temp);
+        if(used) {
+            col = Head.indexOf("ε".toString());
+            par = Form[row][col];
+            it = par.iterator();
+            while (it.hasNext()) {
+                Integer newnum = Integer.parseInt(it.next().toString());
+                if (!visit[row][newnum]) {
+                    visit[row][newnum] = true;
+                    temp.add(newnum);
+                    Closure(newnum, tranval, temp);
+                }
             }
         }
     }
@@ -811,6 +811,5 @@ public class RE {
         PrintBlock(BlockSet);
         return BlockSet;
     }
-
 }
 

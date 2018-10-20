@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72729b11-2fb6-4730-ba6b-6508a7df5b2b" name="Default Changelist" comment="" />
+    <list default="true" id="72729b11-2fb6-4730-ba6b-6508a7df5b2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/RE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/RE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/graph.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,21 +40,22 @@
     <session id="1627907257">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="css" value="4" />
-          <entry key="iml" value="2" />
+          <entry key="iml" value="3" />
           <entry key="java" value="11" />
           <entry key="js" value="6" />
           <entry key="jsp" value="4" />
@@ -60,7 +66,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="CSS" value="4" />
-          <entry key="IDEA_MODULE" value="2" />
+          <entry key="IDEA_MODULE" value="3" />
           <entry key="JAVA" value="11" />
           <entry key="JSP" value="4" />
           <entry key="JavaScript" value="6" />
@@ -70,17 +76,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="262" />
-          <entry key="java" value="4148" />
-          <entry key="js" value="8098" />
+          <entry key="java" value="4161" />
+          <entry key="js" value="8233" />
           <entry key="jsp" value="298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="262" />
-          <entry key="JAVA" value="4148" />
+          <entry key="JAVA" value="4161" />
           <entry key="JSP" value="298" />
-          <entry key="JavaScript" value="8098" />
+          <entry key="JavaScript" value="8233" />
         </counts>
       </usages-collector>
     </session>
@@ -90,23 +96,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Machine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1631">
-              <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="540">
+              <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -114,22 +108,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/RE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-397">
-              <caret line="762" column="17" lean-forward="true" selection-start-line="762" selection-start-column="17" selection-end-line="762" selection-end-column="17" />
+            <state relative-caret-position="459">
+              <caret line="815" lean-forward="true" selection-start-line="815" selection-end-line="815" />
               <folding>
+                <element signature="class#Line#0" />
+                <element signature="class#Node#0" />
+                <element signature="class#stackNode#0" />
                 <element signature="class#DFAStatus#0" />
                 <element signature="method#isEqual#0;class#DFAStatus#0" />
                 <element signature="method#judgeAcceptable#0;class#DFAStatus#0" />
+                <element signature="class#SimpleDFA#0" />
                 <element signature="method#SimpleDFA#0;class#SimpleDFA#0" />
                 <element signature="class#Block#0" />
                 <element signature="e#3390#3391#0" expanded="true" />
                 <element signature="e#3411#3412#0" expanded="true" />
                 <element signature="e#3457#3458#0" expanded="true" />
                 <element signature="e#3484#3485#0" expanded="true" />
+                <element signature="class#RE#0" />
                 <element signature="method#isleft#0;class#RE#0" />
                 <element signature="method#isright#0;class#RE#0" />
                 <element signature="method#isInput#0;class#RE#0" />
                 <element signature="method#initVisit#0;class#RE#0" />
+                <element signature="method#getRE#0;class#RE#0" />
                 <element signature="method#adv#0;class#RE#0" />
                 <element signature="method#getPostfix#0;class#RE#0" />
                 <element signature="method#getNFA#0;class#RE#0" />
@@ -148,30 +148,8 @@
                 <element signature="method#PrintSetDFA#0;class#RE#0" />
                 <element signature="method#PrintSymbleDFA#0;class#RE#0" />
                 <element signature="method#PrintBlock#0;class#RE#0" />
+                <element signature="method#getMinDFA#0;class#RE#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/graph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5346">
-              <caret line="258" column="13" selection-start-line="258" selection-start-column="13" selection-end-line="258" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!block;n#getNFA#0" />
-                <element signature="n#!!block;n#Ajax#0" />
-                <element signature="n#!!block;n#changeDFA#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -186,6 +164,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -194,9 +175,9 @@
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/Machine.java" />
-        <option value="$PROJECT_DIR$/src/main/RE.java" />
         <option value="$PROJECT_DIR$/web/js/graph.js" />
+        <option value="$PROJECT_DIR$/src/main/RE.java" />
+        <option value="$PROJECT_DIR$/src/main/Machine.java" />
       </list>
     </option>
   </component>
@@ -227,18 +208,33 @@
     <option name="width" value="1030" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DFAServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DFAServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="string&#9;PSI&#9;JAVA://com.sun.org.apache.xpath.internal.operations.String" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540022461470" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirstJet" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540022874820" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -394,12 +390,13 @@
       <workItem from="1539930974519" duration="29887000" />
       <workItem from="1539996821234" duration="234000" />
       <workItem from="1539997955966" duration="429000" />
-      <workItem from="1539998418524" duration="21038000" />
+      <workItem from="1539998418524" duration="21809000" />
+      <workItem from="1540038184077" duration="3104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68831000" />
+    <option name="totallyTimeSpent" value="72706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,7 +411,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77292573" weight="0.1300268" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77292573" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" sideWeight="0.22707424" side_tool="true" weight="0.20643431" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,7 +435,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="JRebel Executor" order="15" sideWeight="0.51541555" visible="true" weight="0.20234604" />
+      <window_info active="true" anchor="bottom" id="JRebel Executor" order="15" sideWeight="0.51541555" visible="true" weight="0.013215859" />
       <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.6300268" side_tool="true" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -518,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFAServer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -569,38 +559,59 @@
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
-          <caret line="88" column="8" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Machine.java">
+    <entry file="file://$PROJECT_DIR$/web/js/graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1631">
-          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+        <state relative-caret-position="-387">
+          <caret line="214" column="24" lean-forward="true" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!block;n#getNFA#0" />
+            <element signature="n#!!block;n#getStandard#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFAServer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/RE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
-          <caret line="762" column="17" lean-forward="true" selection-start-line="762" selection-start-column="17" selection-end-line="762" selection-end-column="17" />
+        <state relative-caret-position="459">
+          <caret line="815" lean-forward="true" selection-start-line="815" selection-end-line="815" />
           <folding>
+            <element signature="class#Line#0" />
+            <element signature="class#Node#0" />
+            <element signature="class#stackNode#0" />
             <element signature="class#DFAStatus#0" />
             <element signature="method#isEqual#0;class#DFAStatus#0" />
             <element signature="method#judgeAcceptable#0;class#DFAStatus#0" />
+            <element signature="class#SimpleDFA#0" />
             <element signature="method#SimpleDFA#0;class#SimpleDFA#0" />
             <element signature="class#Block#0" />
             <element signature="e#3390#3391#0" expanded="true" />
             <element signature="e#3411#3412#0" expanded="true" />
             <element signature="e#3457#3458#0" expanded="true" />
             <element signature="e#3484#3485#0" expanded="true" />
+            <element signature="class#RE#0" />
             <element signature="method#isleft#0;class#RE#0" />
             <element signature="method#isright#0;class#RE#0" />
             <element signature="method#isInput#0;class#RE#0" />
             <element signature="method#initVisit#0;class#RE#0" />
+            <element signature="method#getRE#0;class#RE#0" />
             <element signature="method#adv#0;class#RE#0" />
             <element signature="method#getPostfix#0;class#RE#0" />
             <element signature="method#getNFA#0;class#RE#0" />
@@ -619,26 +630,15 @@
             <element signature="method#PrintSetDFA#0;class#RE#0" />
             <element signature="method#PrintSymbleDFA#0;class#RE#0" />
             <element signature="method#PrintBlock#0;class#RE#0" />
+            <element signature="method#getMinDFA#0;class#RE#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5346">
-          <caret line="258" column="13" selection-start-line="258" selection-start-column="13" selection-end-line="258" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!block;n#getNFA#0" />
-            <element signature="n#!!block;n#Ajax#0" />
-            <element signature="n#!!block;n#changeDFA#0" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
     </entry>
