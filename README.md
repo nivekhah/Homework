@@ -3,8 +3,11 @@
 ## 环境概览
 
 > 开发环境：Jetbrains Intelij Idea 
+
 >开发语言：Java（后端） 和 JavaScript（前端）
+
 >Java版本：JDK1.8 
+
 >Tomcat版本：tomcat 9
 
 ## 作业要求
