@@ -22,7 +22,7 @@
 
 ## 运行截图
 
-  ![]( https://github.com/qianqianjun/Homework/raw/master/images/run.png)
+  ![]( https://github.com/qianqianjun/Homework/raw/master/web/images/run.png)
 
 ## 使用方法
 
