@@ -263,27 +263,31 @@ function setSet(string) {
 
 function judge() {
     JUDGESENTENCE = $("#target").val();
-    if (CANJUDGE && JUDGEBUTTON) {
-        JUDGEBUTTON = false;
-        if (target == "") {
-            alert("Input a string please");
+    if(JUDGESENTENCE!="") {
+        if (CANJUDGE && JUDGEBUTTON) {
+            JUDGEBUTTON = false;
+            if (target == "") {
+                alert("Input a string please");
+            }
+            else {
+                STRINDEX = 0;
+                status = DFA[0][0][0];
+                success = false;
+                INTERVAL = setInterval(function () {
+                    setSet(JUDGESENTENCE);
+                    //changeDFA();
+                    if (STRINDEX == JUDGESENTENCE.length && END[status]) {
+                        alert("success");
+                        success = true;
+                    }
+                    if (success)
+                        window.clearInterval(INTERVAL);
+                }, 2000);
+            }
         }
-        else {
-            STRINDEX=0;
-            status=DFA[0][0][0];
-            success=false;
-            INTERVAL=setInterval(function () {
-                setSet(JUDGESENTENCE);
-                //changeDFA();
-                if(STRINDEX==JUDGESENTENCE.length&&END[status]) {
-                    alert("success");
-                    success=true;
-                }
-                if(success)
-                    window.clearInterval(INTERVAL);
-            },2000);
-        }
+        else
+            alert("can not judge before build! ");
     }
     else
-        alert("can not judge before build! ");
+        alert("please input a string to judge!");
 }
