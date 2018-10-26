@@ -3,17 +3,17 @@
 ## 环境概览
 
 > 开发环境：Jetbrains Intelij Idea 
-开发语言：Java（后端） 和 JavaScript（前端）
-Java版本：JDK1.8 
-Tomcat版本：tomcat 9
+>开发语言：Java（后端） 和 JavaScript（前端）
+>Java版本：JDK1.8 
+>Tomcat版本：tomcat 9
 
 ## 作业要求
 
 > 分析用户输入的正则表达式（包含基本运算），对操作进行理解 
-转换至NFA 
-转换至DFA 
-最小化DFA 
-利用最小DFA分析输入字符串是否匹配
+>转换至NFA 
+>转换至DFA 
+>最小化DFA 
+>利用最小DFA分析输入字符串是否匹配
 > 交互操作和可视化（可选）
 
 ## 最终实现情况
